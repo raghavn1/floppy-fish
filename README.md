@@ -11,51 +11,51 @@ Players must control a bird and navigate through pipes without crashing, earning
 ---
 🎮 What the Project Does
 
-Allows users to sign up and log in
+-Allows users to sign up and log in
 
-Runs a Flappy Bird–style game using Java Swing
+-Runs a Flappy Bird–style game using Java Swing
 
-Uses keyboard input (spacebar) to control the bird
+-Uses keyboard input (spacebar) to control the bird
 
-Increases difficulty as the score increases
+-Increases difficulty as the score increases
 
-Plays sound effects and background music
+-Plays sound effects and background music
 
-Saves high scores per user to a file
+-Saves high scores per user to a file
 
-Displays score during gameplay
+-Displays score during gameplay
 
 ---
 🏁 How to Run the Program
 
-Download all the files in the repository
+1. Download all the files in the repository
 
-Add to a new VSCode Java project
+2. Add to a new VSCode Java project
 
-Compile all the files
+3. Compile all the files
 
-Make sure required Java extensions are downloaded (Java extension pack, code runner)
+4. Make sure required Java extensions are downloaded (Java extension pack, code runner)
 
-Ensure a JDK is installed on the system
+5. Ensure a JDK is installed on the system
 
-Run the code from the GameFrame.java file
+6. Run the code from the GameFrame.java file
 
-Register, login, then play
+7. Register, login, then play
 
 ---
 🎯 Project Goals / Purpose
 
-The purpose of this project is to:
+-The purpose of this project is to:
 
-Practice object-oriented programming in Java
+-Practice object-oriented programming in Java
 
-Learn Java Swing GUI development
+-Learn Java Swing GUI development
 
-Implement file I/O for saving user data and high scores
+-Implement file I/O for saving user data and high scores
 
-Understand game physics (gravity, velocity, collision detection)
+-Understand game physics (gravity, velocity, collision detection)
 
-Combine multiple components into a complete interactive application
+-Combine multiple components into a complete interactive application
 
 ---
 📕 Documentation
