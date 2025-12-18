@@ -14,7 +14,7 @@ import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 
 public class LoginPage extends JPanel {
-       // CardLayout card = new CardLayout();
+
 
     private MainPanel mainPanel;
 
@@ -26,12 +26,12 @@ public class LoginPage extends JPanel {
        
     public LoginPage(MainPanel mainPanel) throws FileNotFoundException{
         this.mainPanel = mainPanel;
-       // this.setLayout(card);
+   
         this.setPreferredSize(new Dimension(300,300));
         //defining panel
         SpringLayout springLayout = new SpringLayout();
         this.setLayout(springLayout);
-            //labels and text fields
+       //labels and text fields
         JLabel email  = new JLabel("Email: ");
         JLabel password = new JLabel("Password: ");
         JTextField enterEmail = new JTextField(15);
@@ -115,7 +115,7 @@ public class LoginPage extends JPanel {
                     String p = (String) emailaddress.get(emailfield);
                     p = p.trim();
                     if(password.equals(p)){
-                        //mainPanel.loginSuccessful();
+      
                         currentUser = emailfield;
                         mainPanel.loginSuccessful(currentUser, userHighScore);
 
