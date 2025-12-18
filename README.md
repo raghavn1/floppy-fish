@@ -45,3 +45,8 @@ Players must control a bird and navigate through pipes without crashing, earning
 
 Oracle Java Docs:
 https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html
+
+---
+File Structure:
+
+{code}
