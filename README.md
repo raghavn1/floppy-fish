@@ -33,12 +33,12 @@ Players must control a bird and navigate through pipes without crashing, earning
 ---
 🎯 Project Goals / Purpose
 
--The purpose of this project is to:
--Practice object-oriented programming in Java
--Learn Java Swing GUI development
--Implement file I/O for saving user data and high scores
--Understand game physics (gravity, velocity, collision detection)
--Combine multiple components into a complete interactive application
+- The purpose of this project is to:
+- Practice object-oriented programming in Java
+- Learn Java Swing GUI development
+- Implement file I/O for saving user data and high scores
+- Understand game physics (gravity, velocity, collision detection)
+- Combine multiple components into a complete interactive application
 
 ---
 📕 Documentation
