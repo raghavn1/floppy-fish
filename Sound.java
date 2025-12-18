@@ -23,19 +23,22 @@ public class Sound {
     }
 
     public void play() {
-        if (clip == null) return;
-        clip.stop();
-        clip.setFramePosition(0);
-        clip.start();
+        if (clip != null){
+            clip.stop();
+            clip.setFramePosition(0);
+            clip.start();
+        }
     }
 
     public void loop() {
-        if (clip == null) return;
-        clip.loop(Clip.LOOP_CONTINUOUSLY);
+        if (clip != null){
+            clip.loop(Clip.LOOP_CONTINUOUSLY);
+        }
     }
 
     public void stop() {
-        if (clip == null) return;
-        clip.stop();
+        if (clip != null){
+            clip.stop();
+        }
     }
 }
